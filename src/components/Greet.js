@@ -5,10 +5,10 @@ import React from "react";
 // }
 
 const Greet = (props) => {
-  console.log(props);
+  const { name, heroName } = props; // Destructuring of the object in Javascript (Here destructring of Props)
   return (
     <h2>
-      Hello {props.name}! you are the : {props.heroName}
+      Hello {name}! you are the : {heroName}
     </h2>
   );
 };

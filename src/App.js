@@ -7,12 +7,16 @@ import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
 import ParentComponent from "./components/ParentComponent";
+import UserGreetings from "./components/UserGreetings";
+import NameList from "./components/NameList";
 
 function App() {
   return (
     <div className="App">
-      <h3>Parent Component : </h3>
-      <ParentComponent />
+      <h3>NameList Component : </h3>
+      <NameList />
+      {/* <UserGreetings /> */}
+      {/* <ParentComponent /> */}
       {/* <ParentComponent /> */}
       {/* <Counter />
       <h3>Function click component : </h3>

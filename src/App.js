@@ -6,17 +6,21 @@ import "./App.css";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
 
 function App() {
   return (
     <div className="App">
+      <h3>Parent Component : </h3>
+      <ParentComponent />
+      {/* <ParentComponent /> */}
       {/* <Counter />
       <h3>Function click component : </h3>
       <FunctionClick />
       <h3>Class Click Component : </h3>
       <ClassClick /> */}
-      <h3>EventBind Component : </h3>
-      <EventBind />
+      {/* <h3>EventBind Component : </h3>
+      <EventBind /> */}
       {/* <Message /> */}
       {/*     <Greet name="Aditya" heroName="Batman" />
       {/*   <Greet name="Rohit" heroName="Superman" />

@@ -12,11 +12,13 @@ import NameList from "./components/NameList";
 import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/Inline";
 import Form from "./components/Form";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <Table />
     </div>
   );
 }

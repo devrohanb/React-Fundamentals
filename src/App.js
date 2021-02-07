@@ -11,30 +11,12 @@ import UserGreetings from "./components/UserGreetings";
 import NameList from "./components/NameList";
 import Stylesheet from "./components/Stylesheet";
 import Inline from "./components/Inline";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
-      <h3>Inline Component : </h3>
-      <Inline />
-      {/* <Stylesheet primary={true} /> */}
-      {/* <NameList /> */}
-      {/* <UserGreetings /> */}
-      {/* <ParentComponent /> */}
-      {/* <ParentComponent /> */}
-      {/* <Counter />
-      <h3>Function click component : </h3>
-      <FunctionClick />
-      <h3>Class Click Component : </h3>
-      <ClassClick /> */}
-      {/* <h3>EventBind Component : </h3>
-      <EventBind /> */}
-      {/* <Message /> */}
-      {/*     <Greet name="Aditya" heroName="Batman" />
-      {/*   <Greet name="Rohit" heroName="Superman" />
-      <Greet name="Rohan" heroName="Joker" /> */}
-      {/*<h3>Welcome Component :</h3>
-      <Welcome name="Rohan" heroName="Joker" /> */}
+      <Form />
     </div>
   );
 }

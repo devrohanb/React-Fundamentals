@@ -9,12 +9,16 @@ import EventBind from "./components/EventBind";
 import ParentComponent from "./components/ParentComponent";
 import UserGreetings from "./components/UserGreetings";
 import NameList from "./components/NameList";
+import Stylesheet from "./components/Stylesheet";
+import Inline from "./components/Inline";
 
 function App() {
   return (
     <div className="App">
-      <h3>NameList Component : </h3>
-      <NameList />
+      <h3>Inline Component : </h3>
+      <Inline />
+      {/* <Stylesheet primary={true} /> */}
+      {/* <NameList /> */}
       {/* <UserGreetings /> */}
       {/* <ParentComponent /> */}
       {/* <ParentComponent /> */}
